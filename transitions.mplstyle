@@ -1,0 +1,67 @@
+# .15 = dark_gray
+# .8 = light_gray
+
+figure.facecolor: white
+figure.figsize: 6.4, 4.4
+figure.titlesize: medium
+
+text.color: .15
+text.usetex: True
+text.latex.preamble: \usepackage{color}, \usepackage{amsmath}, \usepackage{bm}
+
+image.cmap: Greys
+font.size: 9.0
+font.family: serif
+font.serif: cm
+font.sans-serif: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+
+# axes
+# Tableau10 colors
+axes.prop_cycle: cycler('color', ['1f77b4', 'ff7f0e', '2ca02c', 'd62728', '9467bd', '8c564b', 'e377c2', '7f7f7f', 'bcbd22', '17becf'])
+axes.grid: False
+axes.facecolor: white
+axes.labelcolor: .15
+axes.labelpad: 3.0
+axes.edgecolor: .15
+axes.linewidth: 1.0
+axes.axisbelow: True
+axes.labelsize: medium
+axes.titlesize: medium
+
+# ticks
+xtick.direction: out
+ytick.direction: out
+xtick.color: .15
+ytick.color: .15
+xtick.major.pad: 3.0
+ytick.major.pad: 3.0
+xtick.major.size: 0
+ytick.major.size: 0
+xtick.minor.size: 0
+ytick.minor.size: 0
+xtick.major.width: 0.8
+ytick.major.width: 0.8
+xtick.minor.width: 0.4
+ytick.minor.width: 0.4
+xtick.labelsize: small
+ytick.labelsize: small
+
+# legend
+legend.fontsize: medium
+legend.frameon: False
+legend.numpoints: 1
+legend.scatterpoints: 1
+
+# grid
+grid.linewidth: 0.8
+grid.color: .8
+grid.linestyle: -
+
+# lines
+lines.linewidth: 1.4
+lines.markersize: 4.5
+lines.markeredgewidth: 0.8
+lines.solid_capstyle: round
+
+# patches
+patch.linewidth: 0.8

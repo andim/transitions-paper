@@ -1,0 +1,13 @@
+name: transitions
+dependencies:
+    - python=2.7
+    - numpy
+    - scipy
+    - pandas
+    - cython
+    - matplotlib=1.5.*
+    - pip:
+        - palettable
+        - scipydirect
+        - noisyopt
+   
