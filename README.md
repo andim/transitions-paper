@@ -6,6 +6,8 @@ Mayer, Mora, Rivoire, Walczak : [Transitions in optimal adaptive strategies for 
 
 It allows reproduction of all numerical results reported in the manuscript.
 
+[![DOI](https://zenodo.org/badge/86507183.svg)](https://zenodo.org/badge/latestdoi/86507183)
+
 ## Installation requirements
 
 The code uses Python 2.7+.
