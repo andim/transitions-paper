@@ -37,7 +37,7 @@ Note: As the simulations are stochastic you will not get precisely equivalent pl
 
 ## Contact
 
-If you run into any difficulties running the code, feel free to contact us at `andisspam@gmail.com`.
+If you run into any difficulties running the code, feel free to contact us at `andimscience@gmail.com`.
 
 ## License
 
