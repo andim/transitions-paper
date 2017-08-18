@@ -3,7 +3,6 @@
 
 import numpy as np
 
-get_ipython().magic(u'matplotlib inline')
 import matplotlib.pyplot as plt
 plt.style.use(['transitions.mplstyle'])
 import matplotlib
@@ -64,7 +63,8 @@ def plot_transitions(axes, fs, colororder=None):
         pi, opt = optfitness(pienv, pareto)
         copt = pienv*np.log(opt[1]) + (1.0-pienv)*np.log(opt[0])
         for ax in [axes[1]]:
-            ax.plot(opt[0], opt[1], 'x+'[counter%2], c='%s'%(pienv*0.8), markeredgecolor='%s'%(pienv*0.8))
+            ax.plot(opt[0], opt[1], 'x+'[counter%2], c='%s'%(pienv*0.8), markersize=7,
+                    markeredgecolor='%s'%(pienv*0.8), markeredgewidth=1.25)
             if pienv > 0.0:
                 ax.plot(f0, np.exp(copt/pienv)/f0**((1.0-pienv)/pienv), '-', c='%s'%(pienv*0.8), lw=.5)
             else:
